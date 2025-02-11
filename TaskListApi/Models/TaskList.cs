@@ -21,5 +21,7 @@ namespace TaskListApi.Models
 
         [BsonElement("sharedUserIds")]
         public List<string> SharedUserIds { get; set; } = new();
+
+
     }
 }
