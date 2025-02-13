@@ -1,4 +1,4 @@
-﻿namespace TaskListApi.Utils;
+﻿namespace TaskListApi.DataContracts;
 
 /// <summary>
 /// Represents a unified API response containing status code, data and error (if any).
@@ -20,3 +20,4 @@ public class ApiResponse<T>
     /// </summary>
     public string? Error { get; set; }
 }
+
